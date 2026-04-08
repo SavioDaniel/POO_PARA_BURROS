@@ -1,4 +1,4 @@
-package Aula52_E_Herança.dominio;
+package Aula5EHerenca.Aula52_E_Herança.dominio;
 
 public class Animal {
     protected String name;
