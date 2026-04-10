@@ -3,11 +3,15 @@ package Aula5EHerenca.Aula54.dominio;
 public class Moto extends Veiculo{
     private int cilindrada;
 
+    public Moto(String marca, String modelo, double velocidade, int cilindrada) {
+        super(marca, modelo, velocidade);
+        this.cilindrada = cilindrada;
+    }
 
     @Override
     public String toString() {
         return super.toString() +
-                ", Quantidade de portas: " + this.cilindrada;
+                ", Cilindrada: " + this.cilindrada;
     }
 
     public int getCilindrada() {
