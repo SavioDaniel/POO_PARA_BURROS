@@ -10,6 +10,12 @@ public class Veiculo {
         return velocidade += aumentar ;
     }
 
+    public Veiculo(String marca, String modelo, double velocidade) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.velocidade = velocidade;
+    }
+
     @Override
     public String toString() {
         return "Veiculo{" +
